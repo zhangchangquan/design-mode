@@ -18,6 +18,8 @@ public class OrderController {
         context.action();
         context.printInfo();
 
+        System.out.println("2222");
+
         // 商家出库发货
         context.action();
         context.printInfo();
