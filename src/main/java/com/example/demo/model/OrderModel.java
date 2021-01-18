@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class OrderModel {
 
     public void updateOrderState() {
-
+        System.out.println("0118");
     }
 }
