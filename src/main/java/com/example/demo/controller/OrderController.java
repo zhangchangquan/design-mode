@@ -1,8 +1,8 @@
 package com.example.demo.controller;
 
-import com.example.demo.component.Context;
+import com.example.demo.component.statemode.Context;
 import com.example.demo.service.State;
-import com.example.demo.service.impl.PendingPaymentState;
+import com.example.demo.service.impl.statemode.PendingPaymentState;
 import org.springframework.stereotype.Controller;
 
 @Controller

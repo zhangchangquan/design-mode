@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.component.Context;
+import com.example.demo.component.statemode.Context;
 
 public interface State {
 

@@ -1,4 +1,4 @@
-package com.example.demo.component;
+package com.example.demo.component.statemode;
 
 import com.example.demo.service.State;
 
@@ -18,11 +18,8 @@ public class Context {
         this.state.action(this);
     }
 
-    public  void printInfo() {
-        if (this.state != null) {
-            this.state.doPrint();
-        }
+    public void printInfo() {
+        this.state.doPrint();
     }
-
 
 }

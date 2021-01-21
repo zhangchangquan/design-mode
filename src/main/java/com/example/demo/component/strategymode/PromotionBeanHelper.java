@@ -1,4 +1,4 @@
-package com.example.demo.component;
+package com.example.demo.component.strategymode;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -18,6 +18,7 @@ public class PromotionBeanHelper implements ApplicationContextAware {
     }
 
     public <T> Map<String, T> getBeansOfType(Class<T> clazz) {
+        Object bean = applicationContext.getBean("");
         Map<String, T> beansOfType = applicationContext.getBeansOfType(clazz);
         return beansOfType;
     }

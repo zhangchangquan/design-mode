@@ -1,5 +1,6 @@
-package com.example.demo.component;
+package com.example.demo.component.strategymode;
 
+import com.example.demo.component.strategymode.PromotionBeanHelper;
 import com.example.demo.dto.PromotionDto;
 import com.example.demo.service.PromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
